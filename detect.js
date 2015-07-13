@@ -168,6 +168,9 @@
                 regex: "(Opera)/9.80.*Version/(\\d+)\\.(\\d+)(?:\\.(\\d+))?",
                 family_replacement: "Opera"
             }, {
+				regex: "(OPR)/(\\d+)\\.(\\d+)",
+				family_replacement: "Opera"
+			}, {
                 regex: "(webOSBrowser)/(\\d+)\\.(\\d+)",
                 family_replacement: "webOS"
             }, {
